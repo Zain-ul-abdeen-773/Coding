@@ -9,7 +9,7 @@ class Quadratic{
 
 	Quadratic(){
       a=1;
-	  b=0;
+	  b=1;
 	  c=0;
 	  variable='x';
 	}
@@ -55,6 +55,6 @@ int main(){
    quadratic.add(q);
    quadratic.tostring();
 
-
+ 
 	return 0;
 }
