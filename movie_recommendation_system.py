@@ -132,3 +132,4 @@ plt.show()
 movie_corelation=pd.DataFrame(similar_rating,columns=['Correlation'])
 movie_corelation.dropna(inplace=True)
 movie_corelation
+
