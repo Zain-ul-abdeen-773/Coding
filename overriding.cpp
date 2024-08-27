@@ -17,7 +17,7 @@ class A{
 class B: public A{
     public:
     void assignvalue(int j,int d) {
-      //this->assignvalue(3);
+      this->A::assignvalue(3);
     j= 45;
     d= 90;
     cout<<j<<endl<<d<<endl;
